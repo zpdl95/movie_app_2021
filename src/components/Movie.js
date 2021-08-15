@@ -6,8 +6,9 @@ import "./Movie.css";
 function Movie({ id, year, title, summary, poster, genres }) {
   return (
     <Link
+      className="none-a"
       to={{
-        pathname: "/movie-detail",
+        pathname: `/movie/${id}`,
         state: {
           year,
           title,
