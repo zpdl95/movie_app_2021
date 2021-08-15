@@ -19,3 +19,10 @@ arrow function -> 함수작성시 {}를 사용하면 return을 작성해야 하�
 map()함수는 key인자를 받아야한다. 컴포넌트에 직접 key인자를 넘겨줄 수도 있고 or map(_,index)처럼 함수가 제공하는 두번째인자를 key값으로 사용가능.
 
 Link컴포넌트를 사용하기 위해선 Router컴포넌트 안에 넣어서 사용해야한다.
+Link to="/about" -> 과 같이 일반적인 사용법,
+Link to={{pathname: "/about",
+          search: "?sort=name",
+          state: { isLoading: true }
+        }} -> 과 같은 object형 사용법이 있다.
+
+react-router는 route사용해서 페이지를 이동할때 해당 페이지로 몇개의 속성값을 전달한다.
