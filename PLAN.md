@@ -17,3 +17,5 @@ implicit return -> 함수작성시 리턴할값을 한줄에 적으면 return을
 arrow function -> 함수작성시 {}를 사용하면 return을 작성해야 하지만 ()만 사용하면 return을 사용하지 않아도 ()안의 내용을 객체로 만들어 return해줌.
 
 map()함수는 key인자를 받아야한다. 컴포넌트에 직접 key인자를 넘겨줄 수도 있고 or map(_,index)처럼 함수가 제공하는 두번째인자를 key값으로 사용가능.
+
+Link컴포넌트를 사용하기 위해선 Router컴포넌트 안에 넣어서 사용해야한다.
