@@ -10,6 +10,7 @@
 9. npm i gh-pages 깃허브에 배포하기위해서 이것을 설치
 10. npm run build를 해서 build폴더 생성
 11. package.json에 homepage 주소를 입력
+12. npm i react-router-dom 네비게이션을 만들어주는 패키지
 
 
 implicit return -> 함수작성시 리턴할값을 한줄에 적으면 return을 사용하지 않아도 return해줌.
